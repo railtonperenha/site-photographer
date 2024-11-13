@@ -73,3 +73,16 @@ header nav.opened {
         flex-direction: row;
     }
 }
+
+@media (width > 900px) {
+
+    .logo a img {
+        width: 8rem;
+        height: 8rem;
+    }
+
+    header nav a {
+        font-size: 1.8rem;
+        font-weight: lighter;
+    }
+}
