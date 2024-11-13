@@ -1,0 +1,45 @@
+footer {
+    display: flex;
+    height: 10rem;
+    padding: 0 2rem;
+    font-family: var(--fonte-padrao);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+    background-color: var(--third-color);
+}
+
+.footer-widgets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text-footer {
+    display: flex;
+    gap: 0.5rem;
+    color: #FFF;
+}
+
+.text-footer .name {
+    font-weight: bold;
+}
+
+.contact a {
+    color: #FFF;
+}
+
+.social-media {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-media .social-icon a {
+    color: #FFF;
+}
+
+@media (width > 900px) {
+    footer {
+        font-size: 1.5rem;
+    }
+}

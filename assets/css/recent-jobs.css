@@ -1,0 +1,126 @@
+/* INICIO DA SECTION */
+.recent-jobs {
+    text-align: center;
+    padding: 5rem 3rem;
+}
+
+/* DIV DO TITULO */
+.container-title {
+    margin-bottom: 5rem;
+}
+
+/* TITULO */
+.container-title .title {
+    font-family: var(--fonte-padrao);
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: var(--secondary-color);
+}
+
+/* DIV DO GRID */
+.grid {
+    display: grid;
+    grid-template-columns:  repeat(1, 1fr);
+    
+}
+
+/* DIV DO ENSAIO */
+.grid .ensaio-container {
+    width: 100%;
+    padding-bottom: 5rem;
+    margin-bottom: 5rem;
+    box-shadow: 0 0 30px #00000036;
+    transition: all ease 0.5s;
+    cursor: pointer;
+}
+
+.grid .ensaio-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 20px #00000036;
+}
+
+/* IMAGEM */
+.img-thumb img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+/* TEXTO DA IMAGEM */
+.job-text .title {
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 2rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.job-text .subtitle {
+    font-family: var(--fonte-padrao);
+    font-size: 1.5rem;
+    letter-spacing: 0.3rem;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.local {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.local p {
+    font-family: var(--fonte-padrao);
+    font-size: 1.5rem;
+    color: var(--third-color);
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.like i {
+    font-family: var(--fonte-padrao);
+    font-size: 1.2rem;
+    font-weight: normal;
+    color: var(--fourth-color);
+}
+
+.like p {
+    font-family: var(--fonte-padrao);
+    font-weight: normal;
+    font-size: 1.2rem;
+    color: var(--primary-color);
+}
+
+/* RESPONSIVIDADE */
+@media (width > 600px) {
+
+    .container-title {
+        margin-bottom: 8rem;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .grid .ensaio-container {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (width > 900px) {
+    
+    .grid .ensaio-container {
+        width: 60%;
+        margin-bottom: 8rem;
+    }
+}
