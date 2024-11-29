@@ -31,7 +31,7 @@
     margin-bottom: 5rem;
     box-shadow: 0 0 30px #00000036;
     transition: all ease 0.5s;
-    cursor: pointer;
+    
 }
 
 .grid .ensaio-container:hover {
@@ -90,6 +90,7 @@
     font-size: 1.2rem;
     font-weight: normal;
     color: var(--fourth-color);
+    cursor: pointer;
 }
 
 .like p {
